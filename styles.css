@@ -1,0 +1,75 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+header nav ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Login form styling */
+main h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 5px 0;
+}
+
+/* Dashboard styling */
+#dashboard {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dc3545;
+}
+
+#userList {
+    list-style: none;
+    padding: 0;
+}
+
+#userList li {
+    padding: 5px;
+}
+
+#userList li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#userList li:hover a {
+    text-decoration: underline;
+}
